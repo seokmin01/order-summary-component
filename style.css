@@ -24,6 +24,15 @@ p {
     font-size: 16px;
 }
 
+.summary_box {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.summary_box p {
+    line-height : 150%;
+}
+
 .container-outer {
     display: flex;
     height: 100%;
@@ -73,6 +82,7 @@ p {
 }
 
 #button1 {
+    display: block;
     color: #fff;
     font-weight: 700;
     background-color: hsl(245, 75%, 52%);
@@ -82,7 +92,18 @@ p {
 }
 
 #button2 {
+    display: block;
     color: hsl(224, 23%, 55%);
     font-weight: 700;
     border-style: none;
+}
+
+#link-to-change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.plan_item h4 {
+    margin-bottom: -10px;
 }
