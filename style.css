@@ -45,7 +45,7 @@ p {
     text-align: center;
     background-color: #fff;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 5px rgba(150, 150, 150, 0.1);
+    box-shadow: 0 12px 20px 0px hsla(245, 75%, 52%, 0.12);
 }
 
 #illustration {
@@ -88,7 +88,7 @@ p {
     background-color: hsl(245, 75%, 52%);
     border-style: none;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 10px rgba(100, 100, 100, 0.1);
+    box-shadow: 0 12px 10px 4px hsla(245, 75%, 52%, 0.12);
 }
 
 #button2 {
