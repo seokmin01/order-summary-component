@@ -96,7 +96,7 @@ p {
 }
 
 #button1:hover {
-    background-color: purple;
+    background-color: rgb(114, 112, 233);
     cursor: pointer;
 }
 
@@ -108,13 +108,20 @@ p {
 }
 
 #button2:hover {
-    color: hsl(245, 75%, 52%);
+    color:hsl(223, 47%, 23%);
     cursor: pointer;
 }
 
-.plan-box a {
+#change-link {
+    color: hsl(245, 75%, 52%);
     font-weight: 700;
     text-decoration: underline;
+}
+
+#change-link:hover {
+    color: rgb(114, 112, 233);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .plan-box h4 {
